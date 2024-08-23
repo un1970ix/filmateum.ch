@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="resources/css/styles.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="Le cinéma arrive au LJP.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Filmateum</title>
+    </head>
+
+    <body>
+        <main class="relative bg-dark min-h-screen flex flex-col items-center p-4">
+            <div class="absolute inset-x-0 top-0 h-64">
+                <div class="absolute inset-0 bg-cover bg-center brightness-50" style="background-image: url('resources/images/still.jpeg');"></div>
+                <div class="absolute inset-0 bg-gradient-overlay"></div>
+            </div>
+
+    	    <div class="relative z-10 flex flex-col items-center">
+                <img src="resources/images/filmateum.svg" alt="Filmateum" width="160" height="60">
+                <div class="h-1 w-full border-t border-white mt-3"></div>
+                <p class="text-center text-gray-200 mt-1 text-sm">Le cinéma arrive au LJP.</p>
+            </div>
+
+            <div class="relative z-10 flex flex-col items-center justify-center mt-12 space-y-6 md:flex-row md:space-y-0 md:space-x-8">
+                <div class="w-2/3 md:w-1/5">
+                    <img src="resources/images/poster.jpeg" alt="Poster of Pulp Fiction" class="rounded-lg w-full h-auto">
+                </div>
+
+                <div class="max-w-md text-gray-200 text-center md:text-left">
+                    <p class="text-2xl font-extrabold uppercase">
+                        <span>Pulp</span> <span>Fiction</span>
+                    </p>
+                    <small class="block mt-1 text-gray-400">154 minutes • VO (sous-titres fr.)</small>
+                    <p class="mt-2 text-sm text-justify">
+                        <strong>Pulp Fiction (1994)</strong> est un film culte de Quentin Tarantino qui entrelace brillamment plusieurs histoires autour du crime à Los Angeles. Avec des personnages mémorables comme Vincent Vega, un tueur à gages, et Mia Wallace,
+                        la femme fatale, le film mélange violence, humour noir et dialogues percutants. Chaque segment dévoile des moments imprévisibles, où le destin des personnages se croise de manière aussi bizarre que fascinante. Grâce à une narration
+                        non linéaire et une bande sonore iconique, <strong>Pulp Fiction</strong> reste un incontournable du cinéma, captivant par son style unique et son énergie débridée.
+                    </p>
+                    <button class="mt-4 px-4 py-2 bg-gray-600 text-white font-semibold rounded-lg cursor-not-allowed">
+                        <i class="fas fa-light fa-ticket mr-1"></i>
+                        <span>Bientôt</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="relative z-10 flex flex-col items-center mt-16 text-xs text-gray-400">
+                <small class="text-center">Toutes les images et affiches présentes sur ce site appartiennent à leurs propriétaires légitimes.</small>
+                <small class="text-center">L'icône du billet est tirée de Font Awesome et est sous licence <a href="https://creativecommons.org/licenses/by/4.0/deed.fr">CC BY 4.0</a>.</small>
+			    <small class="text-center mt-2">© MMXXIV Filmateum</small>
+			    <small class="text-center mt-2"><a href="https://un1970ix.com">un1970ixwashere</a></small>
+            </div>
+        </main>
+    </body>
+</html>
